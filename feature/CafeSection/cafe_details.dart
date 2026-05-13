@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:projesina/CafeSection/cafe_main_imagemodule.dart';
-import 'package:projesina/CafeSection/cafe_model.dart';
-import 'package:projesina/CafeSection/cafe_purchase.dart';
+import 'package:sahand/coffeapp/fluttercoffeapp/feature/CafeSection/module/cafe_main_imagemodule.dart';
+import 'package:sahand/coffeapp/fluttercoffeapp/feature/CafeSection/module/cafe_model.dart';
+import 'package:sahand/coffeapp/fluttercoffeapp/feature/CafeSection/cafe_purchase.dart';
+
 
 class CafeDetails extends StatefulWidget{
   @override

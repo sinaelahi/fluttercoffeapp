@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:projesina/CafeSection/cafe_mainmenu.dart';
+import 'package:sahand/coffeapp/fluttercoffeapp/feature/CafeSection/cafe_mainmenu.dart';
+import 'package:sahand/coffeapp/fluttercoffeapp/feature/CafeSection/coffe_register.dart';
 
 class CafeLoginScreen extends StatelessWidget{
   @override
@@ -27,7 +28,7 @@ class CafeLoginScreen extends StatelessWidget{
                             SizedBox(height: 30),
                             FilledButton(
                               onPressed: (){
-                                Navigator.push(context, MaterialPageRoute(builder: (context) => CafeMainmenu()));
+                                Navigator.push(context, MaterialPageRoute(builder: (context) => CoffeLogin()));
                               },
                               style: FilledButton.styleFrom(
                               backgroundColor: const Color.fromARGB(255, 147, 91, 7),
